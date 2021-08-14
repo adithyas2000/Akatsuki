@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GreenArcade">
         <activity
+            android:name=".UpdateProfile"
+            android:exported="true" />
+        <activity
             android:name=".CreateProfile"
             android:exported="true" />
         <activity

@@ -32,6 +32,17 @@
     <string name="tv_totalShow">Rs.xxxxx</string>
     <string name="btn_proceed">Proceed to pay</string>
     <string name="tv_heading">Create profile</string>
+    <string name="tv_name">Name</string>
+    <string name="et_name">Enter name</string>
+    <string name="tv_Address">Address</string>
+    <string name="tv_tel">Telephone</string>
+    <string name="tv_Email">Email</string>
+    <string name="tv_password">Password</string>
+    <string name="et_Address">Enter Address</string>
+    <string name="et_telephone">Enter telephone</string>
+    <string name="et_email">Enter email</string>
+    <string name="et_password">Password</string>
+    <string name="tv_heading2">Update Profile</string>
 
 
 </resources>
