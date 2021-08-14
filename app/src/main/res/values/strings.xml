@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">GreenArcade</string>
+    <string name="tv_itemNo">Item No</string>
+    <string name="tv_orderId">Order Id</string>
+    <string name="tv_qty">quantity</string>
+    <string name="tv_price">Price</string>
+    <string name="tv_itemD">veg2000</string>
+    <string name="tv_tbDispatch">To be dispatched</string>
+    <string name="ck_tbDispatched" />
+    <string name="tv_dispatch">Dispatched</string>
+    <string name="ck_dispatch" />
+    <string name="btn_sellerAdd">Seller Address</string>
+    <string name="btn_buyerAdd">Buyer Address</string>
+    <string name="btn_track">Track Order</string>
+    <string name="tv_head">Checkout</string>
+    <string name="tv_seller">Seller</string>
+    <string name="tv_sellerName" />
+    <string name="tv_prodName">Carrot</string>
+    <string name="tv_quantity" />
+    <string name="tv_Price" />
+    <string name="rb_delcourier">Courier</string>
+    <string name="rb_delCashOn">Cash on delivery</string>
+    <string name="tv_msgToSeller">Message to seller</string>
+    <string name="et_msgSeller">Enter message</string>
+    <string name="tv_DeliverAdd">Deliver To</string>
+    <string name="et_DeliverAdd">Enter address</string>
+    <string name="tv_subTot">Sub Total</string>
+    <string name="tv_subTotDis">RS.xxxxx</string>
+    <string name="et_voucher">Enter code</string>
+    <string name="btn_apply">Apply</string>
+    <string name="tv_total">Total:</string>
+    <string name="tv_totalShow">Rs.xxxxx</string>
+    <string name="btn_proceed">Proceed to pay</string>
+    <string name="tv_heading">Create profile</string>
+
+
+</resources>
