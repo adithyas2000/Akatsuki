@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\projects\\ekart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "D:\\Projects\\ekart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\dd53d16c7aafadbe413f62c3fd7644d3\\transformed\\material-1.2.1\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\akilad\\.gradle\\caches\\transforms-3\\06eb00db88b882f685319420cf66d415\\transformed\\material-1.2.1\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
