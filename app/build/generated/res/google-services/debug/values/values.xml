@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">766092451136-cap4e4gevg2207th1i83qoc0nfppiq5h.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">766092451136</string>
+    <string name="google_api_key" translatable="false">AIzaSyB62q2QuxdX4NkKG_w4jBasIYUFio7BmIg</string>
+    <string name="google_app_id" translatable="false">1:766092451136:android:5c515f0caa7604d7442ea5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB62q2QuxdX4NkKG_w4jBasIYUFio7BmIg</string>
+    <string name="google_storage_bucket" translatable="false">green-arcade.appspot.com</string>
+    <string name="project_id" translatable="false">green-arcade</string>
+</resources>
