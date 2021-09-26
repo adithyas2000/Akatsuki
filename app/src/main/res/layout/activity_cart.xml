@@ -39,8 +39,7 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/next_btn"
         android:layout_below="@+id/r111"
-        android:layout_marginTop="40dp"
-        ></androidx.recyclerview.widget.RecyclerView>
+        android:layout_marginTop="40dp"></androidx.recyclerview.widget.RecyclerView>
 
     <Button
         android:id="@+id/next_btn"

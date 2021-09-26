@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\projects\\ekart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\Projects\\ekart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\649d2a4b3f3eaa2def35db46744f9e69\\transformed\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\akilad\\.gradle\\caches\\transforms-3\\edf9e2a4bbcdb7a968d2c4cfefacf3f2\\transformed\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "D:\\projects\\ekart\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\Projects\\ekart\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\dd53d16c7aafadbe413f62c3fd7644d3\\transformed\\material-1.2.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\akilad\\.gradle\\caches\\transforms-3\\06eb00db88b882f685319420cf66d415\\transformed\\material-1.2.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

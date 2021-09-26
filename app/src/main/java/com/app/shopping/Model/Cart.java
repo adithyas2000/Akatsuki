@@ -44,15 +44,12 @@ public class Cart {
         return quantity;
     }
 
-    public void setQuantity(String quantity) {
-        this.quantity = quantity;
-    }
+    public void setQuantity(String quantity) { this.quantity = quantity; }
 
     public String getDiscount() {
         return discount;
     }
 
-    public void setDiscount(String discount) {
-        this.discount = discount;
+    public void setDiscount(String discount) { this.discount = discount;
     }
 }

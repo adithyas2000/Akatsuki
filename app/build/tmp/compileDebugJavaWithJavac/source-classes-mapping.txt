@@ -38,8 +38,12 @@ com/app/shopping/HomeActivity.java
  com.app.shopping.HomeActivity$2$1
 com/app/shopping/BuildConfig.java
  com.app.shopping.BuildConfig
-com/app/shopping/Prevalent/CartViewHolder.java
- com.app.shopping.Prevalent.CartViewHolder
+com/app/shopping/editproductactivity.java
+ com.app.shopping.editproductactivity
+ com.app.shopping.editproductactivity$1
+ com.app.shopping.editproductactivity$1$1
+ com.app.shopping.editproductactivity$1$1$1
+ com.app.shopping.editproductactivity$1$1$1$1
 com/app/shopping/Model/AdminOrders.java
  com.app.shopping.Model.AdminOrders
 com/app/shopping/LoginActivity.java
@@ -75,11 +79,17 @@ com/app/shopping/SearchProductsActivity.java
  com.app.shopping.SearchProductsActivity$1
  com.app.shopping.SearchProductsActivity$2
  com.app.shopping.SearchProductsActivity$2$1
-com/app/shopping/ConfirmFinalOrderActivity.java
- com.app.shopping.ConfirmFinalOrderActivity
- com.app.shopping.ConfirmFinalOrderActivity$1
- com.app.shopping.ConfirmFinalOrderActivity$2
- com.app.shopping.ConfirmFinalOrderActivity$2$1
+com/app/shopping/AdminCategoryActivity.java
+ com.app.shopping.AdminCategoryActivity
+ com.app.shopping.AdminCategoryActivity$1
+ com.app.shopping.AdminCategoryActivity$2
+ com.app.shopping.AdminCategoryActivity$3
+ com.app.shopping.AdminCategoryActivity$4
+ com.app.shopping.AdminCategoryActivity$5
+ com.app.shopping.AdminCategoryActivity$6
+ com.app.shopping.AdminCategoryActivity$7
+ com.app.shopping.AdminCategoryActivity$8
+ com.app.shopping.AdminCategoryActivity$9
 com/app/shopping/AdminAddNewProductActivity.java
  com.app.shopping.AdminAddNewProductActivity
  com.app.shopping.AdminAddNewProductActivity$1
@@ -120,20 +130,10 @@ com/app/shopping/ViewHolder/ProductViewHolder.java
  com.app.shopping.ViewHolder.ProductViewHolder
 com/app/shopping/Interface/ItemClickListner.java
  com.app.shopping.Interface.ItemClickListner
-com/app/shopping/editproductactivity.java
- com.app.shopping.editproductactivity
- com.app.shopping.editproductactivity$1
- com.app.shopping.editproductactivity$1$1
- com.app.shopping.editproductactivity$1$1$1
- com.app.shopping.editproductactivity$1$1$1$1
-com/app/shopping/AdminCategoryActivity.java
- com.app.shopping.AdminCategoryActivity
- com.app.shopping.AdminCategoryActivity$1
- com.app.shopping.AdminCategoryActivity$2
- com.app.shopping.AdminCategoryActivity$3
- com.app.shopping.AdminCategoryActivity$4
- com.app.shopping.AdminCategoryActivity$5
- com.app.shopping.AdminCategoryActivity$6
- com.app.shopping.AdminCategoryActivity$7
- com.app.shopping.AdminCategoryActivity$8
- com.app.shopping.AdminCategoryActivity$9
+com/app/shopping/ConfirmFinalOrderActivity.java
+ com.app.shopping.ConfirmFinalOrderActivity
+ com.app.shopping.ConfirmFinalOrderActivity$1
+ com.app.shopping.ConfirmFinalOrderActivity$2
+ com.app.shopping.ConfirmFinalOrderActivity$2$1
+com/app/shopping/Prevalent/CartViewHolder.java
+ com.app.shopping.Prevalent.CartViewHolder
