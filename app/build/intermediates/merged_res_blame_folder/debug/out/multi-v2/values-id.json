@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\projects\\ekart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "outputFile": "C:\\Users\\DELL\\Downloads\\greenarcade\\ekart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\faff98e9729250357f2affb169252287\\transformed\\jetified-facebook-android-sdk-4.14.1\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\dfb678beaab29832be56df903f611fcc\\transformed\\jetified-facebook-android-sdk-4.14.1\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

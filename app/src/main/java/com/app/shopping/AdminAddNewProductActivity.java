@@ -70,8 +70,6 @@ public class AdminAddNewProductActivity extends AppCompatActivity {
                 OpenGallery();
             }
         });
-
-
         AddNewProductButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
