@@ -3210,11 +3210,12 @@ int string title_sign_in_no_password_activity 0x7f1000d0
 int string title_welcome_back_idp_prompt 0x7f1000d1
 int string title_welcome_back_password_prompt 0x7f1000d2
 int string trouble_signing_in 0x7f1000d3
-int string vegitables 0x7f1000d4
-int string welcome_back 0x7f1000d5
-int string welcome_back_idp_header 0x7f1000d6
-int string welcome_back_idp_prompt 0x7f1000d7
-int string welcome_back_password_prompt_body 0x7f1000d8
+int string tv_deleteCatheader 0x7f1000d4
+int string vegitables 0x7f1000d5
+int string welcome_back 0x7f1000d6
+int string welcome_back_idp_header 0x7f1000d7
+int string welcome_back_idp_prompt 0x7f1000d8
+int string welcome_back_password_prompt_body 0x7f1000d9
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style AndroidThemeColorAccentYellow 0x7f110002

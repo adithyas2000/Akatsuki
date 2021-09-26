@@ -14,24 +14,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ekart"
         tools:replace="android:theme">
-        <activity android:name="com.app.shopping.HomeActivity"
-
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name="com.app.shopping.SettinsActivity" />
-        <activity android:name="com.app.shopping.SearchProductsActivity" />
-        <activity android:name="com.app.shopping.addstore"/>
-        <activity android:name="com.app.shopping.updatestoreActivity"/>
-        <activity android:name="com.app.shopping.editproductactivity"/>
-        <activity android:name="com.app.shopping.RegisterActivity" />
-        <activity android:name="com.app.shopping.ProductDetailsActivity" />
-        <activity android:name="com.app.shopping.LoginActivity" />
-        <activity android:name="com.app.shopping.ConfirmFinalOrderActivity" />
-        <activity android:name="com.app.shopping.CartActivity" />
-        <activity android:name="com.app.shopping.AdminUserProductsActivity" />
-        <activity android:name="com.app.shopping.AdminNewOrdersActivity" />
-        <activity android:name="com.app.shopping.AdminCategoryActivity" />
-        <activity android:name="com.app.shopping.AdminAddNewProductActivity" />
-        <activity android:name="com.app.shopping.MainActivity">
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".SettinsActivity" />
+        <activity android:name=".SearchProductsActivity" />
+        <activity android:name=".addstore" />
+        <activity android:name=".updatestoreActivity" />
+        <activity android:name=".editproductactivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ProductDetailsActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ConfirmFinalOrderActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".AdminUserProductsActivity" />
+        <activity android:name=".AdminNewOrdersActivity" />
+        <activity android:name=".AdminCategoryActivity" />
+        <activity android:name=".AdminAddNewProductActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

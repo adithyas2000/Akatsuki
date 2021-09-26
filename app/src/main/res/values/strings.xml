@@ -22,4 +22,5 @@
     <string name="Fertilizers">Fertilizers</string>
     <string name="condition1">Name is mandatory.</string>
     <string name="condition2">image is not selected.</string>
+    <string name="tv_deleteCatheader">Delete category</string>
 </resources>

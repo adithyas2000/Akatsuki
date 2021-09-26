@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Projects\\ekart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "outputFile": "C:\\Users\\DELL\\Downloads\\greenarcade\\ekart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\akilad\\.gradle\\caches\\transforms-3\\8386b91c3e13ee86386038a859238496\\transformed\\jetified-android-image-cropper-2.7.0\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\23a7e74a8814f41c0f04d331570f79a5\\transformed\\jetified-android-image-cropper-2.7.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
