@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:scrollbarStyle="outsideInset">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+<!--suppress AndroidUnresolvableTag -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addstore">
+    <!--suppress AndroidUnresolvableTag -->
+    <ImageView
+        android:id="@+id/select_store_image"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/addstoreimage"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/select_product_image"
+        tools:ignore="HardcodedText" />
+    <!--suppress AndroidUnresolvableTag -->
+    <EditText
+        android:id="@+id/owner_name"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_store_image"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:hint="Owner Name..."
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        tools:ignore="Autofill" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/owner_name"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:padding="20dp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/store_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_number"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:hint="Store Name..."
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/store_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/store_name"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:hint="Store Address..."
+        android:inputType="textMultiLine"
+        android:padding="20dp" />
+
+    <CheckBox
+        android:id="@+id/vegitables"
+        android:layout_width="112dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginRight="45dp"
+        android:text="@string/vegitables" />
+
+
+    <CheckBox
+        android:id="@+id/fruits"
+        android:layout_width="112dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="45dp"
+        android:text="@string/Fruits" />
+    <CheckBox
+        android:id="@+id/seeds"
+        android:layout_width="112dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginRight="45dp"
+        android:text="@string/Seeds" />
+    <CheckBox
+        android:id="@+id/herbs"
+        android:layout_width="112dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="45dp"
+        android:text="@string/Herbs" />
+    <CheckBox
+        android:id="@+id/fertilizers"
+        android:layout_width="112dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginRight="45dp"
+        android:text="@string/Fertilizers" />
+
+
+    <Button
+        android:id="@+id/add_new_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="615dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Add Store"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/available_items"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginRight="45dp"
+        android:text="Available Items" />
+
+    <TextView
+        android:id="@+id/product_type"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginRight="45dp"
+        android:text="Product Type" />
+
+    <CheckBox
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Organic"
+        android:id="@+id/male"
+        tools:ignore="InvalidId"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginRight="45dp"/>
+
+    <CheckBox
+        android:id="@+id/female"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginRight="45dp"
+        android:text="Inorganic"
+        tools:ignore="InvalidId" />
+
+
+</RelativeLayout>
+    </LinearLayout>
+</ScrollView>
