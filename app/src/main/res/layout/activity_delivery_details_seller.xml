@@ -2,136 +2,85 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/img_carrot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DeliveryDetailsSeller">
 
-    <ImageView
-        android:id="@+id/img_carrot"
-        android:layout_width="185dp"
-        android:layout_height="162dp"
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="286dp"
+        android:layout_height="163dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sellBuyerTel">
+
+        <RadioButton
+            android:id="@+id/rb_toBedispatched"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:text="@string/rb_toBedispatched"
+            android:textAlignment="viewStart"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rb_dispatched"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="@string/rb_dispatched"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_sellBuyerTel"
+        android:layout_width="138dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/tv_sellBuyerTel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_orderStatSellerheader" />
+
+    <EditText
+        android:id="@+id/et_trackTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/et_trackTel"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_sellBuyerTel"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_sellBuyerTel"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tv_orderStatSellerheader"
+        android:layout_width="252dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/tv_orderStatSellerheader"
+        android:textAlignment="center"
+        android:textColor="#30DC37"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/carrot" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tv_itemNo"
-        android:layout_width="64dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:text="@string/tv_itemNo"
+    <Button
+        android:id="@+id/btn_trackSave"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn_trackSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_carrot" />
-
-    <TextView
-        android:id="@+id/tv_orderId"
-        android:layout_width="64dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/tv_orderId"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_itemNo" />
-
-    <TextView
-        android:id="@+id/tv_qty"
-        android:layout_width="64dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/tv_qty"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_orderId" />
-
-    <TextView
-        android:id="@+id/tv_price"
-        android:layout_width="64dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/tv_price"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_qty" />
-
-    <TextView
-        android:id="@+id/tv_itemD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="@string/tv_itemD"
-        app:layout_constraintBaseline_toBaselineOf="@+id/tv_itemNo"
-        app:layout_constraintStart_toEndOf="@+id/tv_itemNo" />
-
-    <TextView
-        android:id="@+id/tv_quantity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="TextView"
-        app:layout_constraintBaseline_toBaselineOf="@+id/tv_orderId"
-        app:layout_constraintStart_toEndOf="@+id/tv_orderId" />
-
-    <TextView
-        android:id="@+id/tv_Price"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="TextView"
-        app:layout_constraintBaseline_toBaselineOf="@+id/tv_qty"
-        app:layout_constraintStart_toEndOf="@+id/tv_qty" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="TextView"
-        app:layout_constraintBaseline_toBaselineOf="@+id/tv_price"
-        app:layout_constraintStart_toEndOf="@+id/tv_price" />
-
-    <TextView
-        android:id="@+id/tv_tbDispatch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
-        android:text="@string/tv_tbDispatch"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_price" />
-
-    <CheckBox
-        android:id="@+id/ck_tbDispatched"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:text="@string/ck_tbDispatched"
-        app:layout_constraintBaseline_toBaselineOf="@+id/tv_tbDispatch"
-        app:layout_constraintStart_toEndOf="@+id/tv_tbDispatch" />
-
-    <TextView
-        android:id="@+id/tv_dispatch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:text="@string/tv_dispatch"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_tbDispatch" />
-
-    <CheckBox
-        android:id="@+id/ck_dispatch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:text="@string/ck_dispatch"
-        app:layout_constraintBaseline_toBaselineOf="@+id/tv_dispatch"
-        app:layout_constraintStart_toEndOf="@+id/tv_dispatch" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

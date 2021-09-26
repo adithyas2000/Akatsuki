@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackOrder">
+
+    <TextView
+        android:id="@+id/tv_orderReview"
+        android:layout_width="255dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#13D11A"
+        android:fontFamily="@font/andada"
+        android:text="@string/tv_orderReview"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_amount"
+        android:layout_width="171dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/actor"
+        android:text="@string/tv_amount"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_orNumber" />
+
+    <TextView
+        android:id="@+id/tv_currentStatus"
+        android:layout_width="171dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/actor"
+        android:text="@string/tv_currentStatus"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_amount" />
+
+    <TextView
+        android:id="@+id/tv_trackAmount"
+        android:layout_width="171dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/tv_trackAmount"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_amount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_amount" />
+
+    <TextView
+        android:id="@+id/tv_trackStatus"
+        android:layout_width="171dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/tv_trackStatus"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_currentStatus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_currentStatus" />
+
+    <TextView
+        android:id="@+id/tv_orNumber"
+        android:layout_width="171dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/tv_orNumber"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_orderReview" />
+
+    <EditText
+        android:id="@+id/et_orTel"
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/et_orTel"
+        android:inputType="phone"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_orNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_orNumber"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_orSubmit"
+        android:layout_width="176dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn_orSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_currentStatus" />
+</androidx.constraintlayout.widget.ConstraintLayout>

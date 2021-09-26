@@ -5,10 +5,15 @@
       <map>
         <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/drawable/custom_button.xml" value="0.2703125" />
         <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_checkout.xml" value="0.152" />
-        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_create_profile.xml" value="0.16799999999999998" />
-        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_delivery_details_buyer.xml" value="0.264" />
-        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_delivery_details_seller.xml" value="0.264" />
-        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_update_profile.xml" value="0.176" />
+        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_create_profile.xml" value="0.2" />
+        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_deliver_details_buyer.xml" value="0.2" />
+        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_delivery_details.xml" value="0.176" />
+        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_delivery_details_buyer.xml" value="0.2" />
+        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_delivery_details_seller.xml" value="0.2" />
+        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_main.xml" value="0.10454155955441302" />
+        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_test.xml" value="0.11200000000000002" />
+        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_track_order.xml" value="0.176" />
+        <entry key="..\:/SLIIT/Year 02/semester 2/MAD/ass/assProj/app/src/main/res/layout/activity_update_profile.xml" value="0.264" />
       </map>
     </option>
   </component>

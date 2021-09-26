@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".DeliverDetailsBuyer">
+
+    <TextView
+        android:id="@+id/et_userEmail"
+        android:layout_width="121dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/et_userEmail"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_topic" />
+
+    <TextView
+        android:id="@+id/tv_UserName"
+        android:layout_width="117dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_UserName"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_userEmail" />
+
+    <TextView
+        android:id="@+id/tv_telephone"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_telephone"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_UserName" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="125dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_address"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_telephone" />
+
+    <TextView
+        android:id="@+id/tv_sNotice"
+        android:layout_width="122dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_sNotice"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_address" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#25CD2C"
+        android:ems="10"
+        android:hint="@string/et_email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_userEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/et_userEmail" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:backgroundTint="#25CD2C"
+        android:ems="10"
+        android:hint="@string/et_name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_UserName"
+        app:layout_constraintStart_toEndOf="@+id/tv_UserName" />
+
+    <EditText
+        android:id="@+id/et_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/et_tel"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_telephone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_telephone" />
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#25CD2C"
+        android:ems="10"
+        android:hint="@string/et_address"
+        android:inputType="textPostalAddress"
+        android:minHeight="48dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toEndOf="@+id/tv_address" />
+
+    <EditText
+        android:id="@+id/et_sNotice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#25CD2C"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/et_sNotice"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_sNotice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_sNotice" />
+
+    <TextView
+        android:id="@+id/tv_topic"
+        android:layout_width="260dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:text="@string/tv_topic"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="176dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="116dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/btn_update"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_sNotice" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
